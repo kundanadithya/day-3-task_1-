@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FastAPI Application Setup Guide</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        code {
-            background-color: #f5f5f5;
-            padding: 2px 6px;
-            font-family: monospace;
-            font-size: 1.1em;
-        }
-        pre {
-            background-color: #f5f5f5;
-            padding: 10px;
-            border-radius: 4px;
-           
+# FastAPI Application Setup Guide
+
+Follow these steps to set up and run a simple FastAPI application.
+
+## Step 1: Install Dependencies
+
+First, ensure you have **FastAPI** and **Uvicorn** installed. Run the following command to install them using `pip`:
+
+```bash
+pip install fastapi uvicorn
